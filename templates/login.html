@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{url_for('static', filename= 'css/styles.css')}}">
+<title>Dashboard</title>
+</head>
+<body>
+  <body class="login-body">
+    
+    <div class="login-page">
+      <div class="form-of-login">
+          <div class="login">
+            <div class="login-header">
+              <h2>LOGIN</h2>
+            </div>
+          </div>
+          <form class="login-form" action="/dashboard", method="post">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+          </form>
+      </div>
+       
+    </div>
+    <div class="small text-center text-muted fst-italic">Copyright &copy; CodingThunder 2023</div>    
+    
+</body>
+</body>
+</html>

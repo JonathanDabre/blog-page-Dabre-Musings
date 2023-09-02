@@ -1,0 +1,19 @@
+{
+    "params":
+    {
+        "local_server": "True",
+        "local_uri":"mysql://root:@localhost/codingthunder",
+        "prod_uri": "mysql://root:@localhost/codingthunder",
+        "fb_url": "https://facebook.com/codingthunder",
+        "tw_url": "https://twitter.com/codingthunder",
+        "gh_url": "https://github.com/codingthunder",
+        "blog_name": "Dabre's Musing",
+        "tagline": "Thoughts of Jonathan Dabre",
+        "gmail-user": "crce.9529.ce@gmail.com",
+        "gmail-password": "Jonathan@9529" ,
+        "about_text": "Welcome to my website! I'm Jonathan Dabre, a second-year Engineering student passionate about software development. This blog page is a testament to my dedication and love for coding. Here, I share my experiences, projects, and insights as I explore the fascinating world of technology. Join me on this transformative journey and let's embrace the endless possibilities of software together.Jonathan Dabre",
+        "no_of_posts": 5,
+        "admin_user": "Jonathan",
+        "admin_password": "mybloginflask"
+    }
+}
