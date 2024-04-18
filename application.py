@@ -25,7 +25,7 @@ if local_server:
     # Update this line to point to your AWS RDS instance
     application.config["SQLALCHEMY_DATABASE_URI"] = "mysql://admin:123456789@blog-rds.cz8mq6s44e7a.ap-south-1.rds.amazonaws.com/blog_page_database"
 else:
-    application.config["SQLALCHEMY_DATABASE_URI"] = params['prod_uri']
+    application.config["SQLALCHEMY_DATABASE_URI"] = "mysql://admin:123456789@blog-rds.cz8mq6s44e7a.ap-south-1.rds.amazonaws.com/blog_page_database"
 
 db = SQLAlchemy(application)
 
